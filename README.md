@@ -1,11 +1,12 @@
 # Minimal example for version issues of mongoose and mongo-seeder
 
-The issue can be found [here](https://github.com/aleneum/mongo-seeding-182)
+The issue can be found [here](https://github.com/pkosiec/mongo-seeding/issues/182)
 
+- node: v14.17.5
+- npm: 6.14.14
 - Mongoose: 6.0.4
 - Mongo-seeding: 3.7.0
 - Typescript: 4.4.2
-
 ## How to reproduce
 
 ```
