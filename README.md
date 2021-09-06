@@ -29,13 +29,13 @@ node_modules/mongo-seeding/dist/database/database.d.ts:1:14 - error TS2305: Modu
 1 import { Db, CollectionInsertManyOptions, MongoClient } from 'mongodb';
                ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-node_modules/mongo-seeding/dist/database/database.d.ts:32:167 - error TS2694: Namespace '"/home/alneuman/workspace/mongo-seeding-182/node_modules/mongodb/mongodb"' has no exported member 'InsertWriteOpResult'.
+node_modules/mongo-seeding/dist/database/database.d.ts:32:167 - error TS2694: Namespace '"mongo-seeding-182/node_modules/mongodb/mongodb"' has no exported member 'InsertWriteOpResult'.
 
 32     insertDocumentsIntoCollection(documentsToInsert: any[], collectionName: string, collectionInsertOptions?: CollectionInsertManyOptions): Promise<import("mongodb").InsertWriteOpResult<any>>;
 
                          ~~~~~~~~~~~~~~~~~~~
 
-node_modules/mongo-seeding/dist/database/database.d.ts:55:93 - error TS2694: Namespace '"/home/alneuman/workspace/mongo-seeding-182/node_modules/mongodb/mongodb"' has no exported member 'DeleteWriteOpResultObject'.
+node_modules/mongo-seeding/dist/database/database.d.ts:55:93 - error TS2694: Namespace '"mongo-seeding-182/node_modules/mongodb/mongodb"' has no exported member 'DeleteWriteOpResultObject'.
 
 55     removeAllDocumentsIfCollectionExists(collectionName: string): Promise<import("mongodb").DeleteWriteOpResultObject | undefined>;
 ```
